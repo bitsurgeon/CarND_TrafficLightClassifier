@@ -49,8 +49,8 @@ Select images with traffic light in different distance and states for training. 
 
 Here are two example images for the site and simulator:
 
-<img src="./img/site_yellow.jpg" alt="site" width="400">
-<img src="./img/sim_green.jpg" alt="sim" width="400">
+<img src="./img/site_yellow.jpg" alt="site" width="600">  
+<img src="./img/sim_green.jpg" alt="sim" width="600">
 
 In addition to the images captured in above, publicly available datasets can be incorporated to derive better models.
 
@@ -192,19 +192,19 @@ Test with the Jupyter [notebook](https://github.com/tensorflow/models/blob/maste
 
 Udacity provide a more straightforward version [here](https://github.com/udacity/CarND-Object-Detection-Lab).
 
-An example of the inference output with box:
+An example of the inference output with box (red color with 99.9% confidence):
 
-<img src="./img/site_inference.png" alt="inference" width="400">
+<img src="./img/site_inference.png" alt="inference" width="600">
 
 The following are the timing results of the models:
 
-- simulator
+- simulator (~18.3ms)
 
-<img src="./img/timing_sim.png" alt="t_sim" width="400">
+<img src="./img/timing_sim.png" alt="t_sim" width="600">
 
-- site
+- site (~25.6ms)
 
-<img src="./img/timing_site.png" alt="t_site" width="400">
+<img src="./img/timing_site.png" alt="t_site" width="600">
 
 ---
 
