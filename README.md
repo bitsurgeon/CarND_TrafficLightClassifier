@@ -186,6 +186,8 @@ In the final project, the graph need to be exported with TensorFlow v1.4 to work
 - This [discussion](https://github.com/tensorflow/tensorflow/issues/16268) on GitHub relating to `exporter.py` script might be helpful.
 - The `proto` lib might need to be rebuild.
 
+The frozen graph for site and simulator can be found [here](https://github.com/bitsurgeon/CarND_Capstone/tree/master/ros/src/tl_detector/light_classification/model/site_ssd_inception_v2_coco_2018_01_28_39747_v1_4) and [here](https://github.com/bitsurgeon/CarND_Capstone/tree/master/ros/src/tl_detector/light_classification/model/sim_ssd_mobilenet_v2_coco_2018_03_29_28930_v1_4).
+
 ## Inference
 
 Test with the Jupyter [notebook](https://github.com/tensorflow/models/blob/master/research/object_detection/object_detection_tutorial.ipynb) provided by TensorFlow.
