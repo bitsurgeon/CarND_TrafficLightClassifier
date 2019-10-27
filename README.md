@@ -52,6 +52,10 @@ Here are two example images for the site and simulator:
 <img src="./img/site_yellow.jpg" alt="site" width="600">  
 <img src="./img/sim_green.jpg" alt="sim" width="600">
 
+Simple image argumentation has been applied to the dataset to increase the number of images for model training. The contrast and brightness of the above images are adjusted. This link explains how to do this [step](https://docs.opencv.org/3.4/d3/dc1/tutorial_basic_linear_transform.html).
+
+Now, there are 1899 images for Red; 1440 images for Green; and, 771 images for Yellow.
+
 In addition to the images captured in above, publicly available datasets can be incorporated to derive better models.
 
 - Bosch Small Traffic Lights [Dataset](https://hci.iwr.uni-heidelberg.de/node/6132)
